@@ -12,4 +12,4 @@ intent.putExtra("name", "MrGoutamD");
 Bundle data = getIntent().getExtras();
 String nameStr = data.getString("name");
 ```
-But this works in basic data types like `String`, `Boolean` and `Integer`. The above process doesn't work for `Objects`. For that we can use  **Serialization** and **Parcelable**. 
+But this works in basic data types like `String`, `Boolean` and `Integer`. The above process doesn't work for `Objects`. For that we can use  **Serialization** and **Parcelable**. It is recommanded to use **Parcelable** because it is faster than **Serialization**.

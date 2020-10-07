@@ -19,6 +19,3 @@ Parcelable is an Android specific interface which is used to serialize a class s
 
 *Note: Serialization is a process or mechanism of converting state of object into byte stream.*
 
-
-
-UnderDevelopment...
